@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "lana-business-directory"
+  },
+  "targets": {
+    "lana-business-directory": {
+      "hosting": {
+        "admin": [
+          "lana-business-directory-admin"
+        ]
+      }
+    }
+  }
+}
