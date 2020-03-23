@@ -225,42 +225,42 @@ export const itemsFormConfig = () => ({
 				}
 			}
 		},
-		{
-			type: 'input',
-			key: 'wordpress',
-			templateOptions: {
-				label: 'WordPress Website JSON Data',
-				description: 'Enter the business WordPress website data in JSON format',
-				placeholder: 'https://demo.titaniumtemplates.com/wordpress/?json=1',
-				required: true
-			},
-			validators: {
-				validation: ValidationService.urlValidator
-			},
-			validation: {
-				messages: {
-					invalidUrl: ValidationService.getValidatorErrorMessage('invalidUrl')
-				}
-			}
-		},
-		{
-			type: 'input',
-			key: 'drupal',
-			templateOptions: {
-				label: 'Drupal Website JSON Data',
-				description: 'Enter the business Drupal website data in JSON format',
-				placeholder: 'https://demo.titaniumtemplates.com/drupal/rest/views/rest_api',
-				required: true
-			},
-			validators: {
-				validation: ValidationService.urlValidator
-			},
-			validation: {
-				messages: {
-					invalidUrl: ValidationService.getValidatorErrorMessage('invalidUrl')
-				}
-			}
-		},
+		// {
+		// 	type: 'input',
+		// 	key: 'wordpress',
+		// 	templateOptions: {
+		// 		label: 'WordPress Website JSON Data',
+		// 		description: 'Enter the business WordPress website data in JSON format',
+		// 		placeholder: 'https://demo.titaniumtemplates.com/wordpress/?json=1',
+		// 		required: true
+		// 	},
+		// 	validators: {
+		// 		validation: ValidationService.urlValidator
+		// 	},
+		// 	validation: {
+		// 		messages: {
+		// 			invalidUrl: ValidationService.getValidatorErrorMessage('invalidUrl')
+		// 		}
+		// 	}
+		// },
+		// {
+		// 	type: 'input',
+		// 	key: 'drupal',
+		// 	templateOptions: {
+		// 		label: 'Drupal Website JSON Data',
+		// 		description: 'Enter the business Drupal website data in JSON format',
+		// 		placeholder: 'https://demo.titaniumtemplates.com/drupal/rest/views/rest_api',
+		// 		required: true
+		// 	},
+		// 	validators: {
+		// 		validation: ValidationService.urlValidator
+		// 	},
+		// 	validation: {
+		// 		messages: {
+		// 			invalidUrl: ValidationService.getValidatorErrorMessage('invalidUrl')
+		// 		}
+		// 	}
+		// },
 		{
 			type: 'open-hours',
 			key: 'openhours',
