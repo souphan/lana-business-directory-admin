@@ -50,7 +50,7 @@
     "rxjs": "^6.3.3",
     "rxjs-compat": "^6.3.3",
     "text-mask-addons": "3.7.2",
-    "validator": "10.4.0",
+    "validator": "13.7.0",
     "zone.js": "^0.8.26"
   },
   "devDependencies": {
